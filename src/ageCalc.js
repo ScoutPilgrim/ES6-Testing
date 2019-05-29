@@ -7,7 +7,7 @@ export class FormAge
     this.marsConvert = 1.88;
     this.jupiterConvert = 11.86;
     this.earthLifeExpectancy = 80;
-    this.currYear = new Date().getYear();
+    this.currYear = new Date().getFullYear();
     this.age = this.YearDifference(birthYear);
     this.mercuryYears = this.AgeToMercury();
     this.venusYears = this.AgeToVenus();

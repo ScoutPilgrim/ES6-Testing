@@ -3,8 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Age Calculator</title>
+    <script src="./main.js" charset="utf-8"></script>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Age Calculator</h1>
+      <form id="myForm">
+        <div class="form-group">
+          <label for="startYear">Please enter the year you were born in!</label>
+          <input type="text" class="form-control" id="startYear">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary form-control">Submit!</button>
+        </div>
+      </form>
+      <h5 id="earthAge"></h5>
+      <h5 id="mercuryAge"></h5>
+      <h5 id="venusAge"></h5>
+      <h5 id="marsAge"></h5>
+      <h5 id="jupiterAge"></h5>
+    </div>
   </body>
 </html>
